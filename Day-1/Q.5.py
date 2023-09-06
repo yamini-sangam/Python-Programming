@@ -1,8 +1,14 @@
 # Create a Python function to check if a given string is a palindrome
 
-word= input("Enter a string: ")
-cleanword= word.replace(" ", "").lower()
-if word == word[::-1]:
-    print(word, " is palindrome")
+def ispalindrome(s):
+    w= ""
+    for i in s:
+        w= i+w
+    return(w)
+
+s="malayalam"
+ans=(ispalindrome(s))
+if ans==s:
+    print("palindrome")
 else:
-    print(word, " is not a palindrome")
+    print("not a palindrome")

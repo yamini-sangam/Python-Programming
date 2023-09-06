@@ -7,5 +7,5 @@ temp=val1
 val1=val2
 val2=temp
 
-print("value1 after swaping: ", val1)
-print("value2 after swaping: ", val2)
+print("value1 after swapping: ", val1)
+print("value2 after swapping: ", val2)
