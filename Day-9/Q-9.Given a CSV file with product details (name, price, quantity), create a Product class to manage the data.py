@@ -1,0 +1,1 @@
+# Given a CSV file with product details (name, price, quantity), create a Product class to manage the data

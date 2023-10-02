@@ -1,0 +1,1 @@
+# Given a JSON file with customer data, create a Customer class to store and manipulate the data
